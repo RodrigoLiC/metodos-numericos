@@ -55,12 +55,17 @@ Para una función $f(x)$ y una aproximación inicial $x_0$, la fórmula iterativ
 
 $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
 
+
 #### Metodo de newton de varias variables
 Similarmente:
+
 $\mathbf{x}_{n+1} = \mathbf{x}_n - J(\mathbf{x}_n)^{-1} \mathbf{F}(\mathbf{x}_n)$
 
+
 ### Metodos Iterativos Matriciales
+
 $A = D-L-U$
+
 
 #### Metodo de Jacobi
 Se despeja cada variable en cada ecuacion y se redefine iterativamente.
@@ -68,16 +73,17 @@ A partir de
 
 $D\,\mathbf{x}_{(k+1)} = (L+U)\,\mathbf{x}_{(k)}+b$
 
+
 Se deduce la matriz de iteracion
 
-$\mathbf{x}_{(k+1)} = D^{-1}\,(L+U)\,\mathbf{x}_{(k)}+ D^{-1}\,b$
+$\bf{x}_{(k+1)} = D^{-1}\,(L+U)\,\bf{x}_{(k)}+ D^{-1}\,b$
 
 
 #### Metodo de Gauss Seidel
 Se despeja cada variable en cada ecuacion y se redefine iterativamente tomando en cuenta las variables ya calculadas.
 A partir de 
 
-$(D-L)\,\mathbf{x}_{(k+1)} = U\,\mathbf{x}_{(k)}+b$
+$(D-L)\,\bf{x}_{(k+1)} = U\,\bf{x}_{(k)}+b$
 
 Se deduce la matriz de iteracion
 
