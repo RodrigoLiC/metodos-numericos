@@ -71,19 +71,19 @@ $A = D-L-U$
 Se despeja cada variable en cada ecuacion y se redefine iterativamente.
 A partir de 
 
-$$D\,\mathbf{x}_{(k+1)} = (L+U)\,\mathbf{x}_{(k)}+b$$
+$$D\,\mathbf{x}_{(k+1)} = (L+U)\,\mathbf{x} _{(k)}+b$$
 
 
 Se deduce la matriz de iteracion
 
-$$\bf{x}_{(k+1)} = D^{-1}\,(L+U)\,\bf{x}_{(k)}+ D^{-1}\,b$$
+$$\bf{x}_{(k+1)} = D^{-1}\,(L+U)\,\bf{x} _{(k)}+ D^{-1}\,b$$
 
 
 #### Metodo de Gauss Seidel
 Se despeja cada variable en cada ecuacion y se redefine iterativamente tomando en cuenta las variables ya calculadas.
 A partir de 
 
-$(D-L)\,\bf{x}_{(k+1)} = U\,\bf{x}_{(k)}+b$
+$(D-L)\,\bf{x}_ {(k+1)} = U\,\bf{x}_{(k)}+b$
 
 Se deduce la matriz de iteracion
 
