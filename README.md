@@ -87,7 +87,7 @@ $(D-L)\,\bf{x}_ {(k+1)} = U\,\bf{x}_{(k)}+b$
 
 Se deduce la matriz de iteracion
 
-$\mathbf{x}_{(k+1)} = (D-L)^{-1}\,U\,\mathbf{x}_{(k)}+ (D-L)^{-1}\,b$
+$\mathbf{x}_{(k+1)} = (D-L)^{-1}\,U\,\mathbf{x} _{(k)}+ (D-L)^{-1}\,b$
 
 
 
