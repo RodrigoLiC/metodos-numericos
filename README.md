@@ -32,7 +32,7 @@ $(-1)^S × (1.M) × 2^{(E - bias)}$
 
 - **Números desnormalizados**: Si todo el exponente es 0, se usa $(-1)^S × (0.M) × 2^{(1 - bias)}$
 - **Cero**: Exponente y mantisa 0
-- **Infinito**: Todo el exponente en 1 y toda la mantisa en 0 (el bit de signo diferencia $+\infin$ y $-\infin$)
+- **Infinito**: Todo el exponente en 1 y toda la mantisa en 0 (el bit de signo diferencia $+\infty$ y $-\infty$)
 - **NaN (Not a Number)**: Si todo el exponente es 1 pero toda la mantisa no es 0.
 - **Normalizados**: Si el exponente no es todo 0 ni todo 1 se utiliza el caso normal.
 
